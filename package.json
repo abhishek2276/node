@@ -1,0 +1,44 @@
+{
+  "name": "main2",
+  "version": "1.0.0",
+  "main": "app.txt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "nodemon Main1.js",
+    "build":"netlify deploy  --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishek2276/node.git"
+  },
+  "keywords": [
+    "hii"
+  ],
+  "author": "k.abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek2276/node/issues"
+  },
+  "homepage": "https://github.com/abhishek2276/node#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "json-server": "^0.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "netlify-cli": "^16.7.0",
+    "netlify-lambda": "^2.0.16",
+    "pg": "^8.11.0",
+    "repository": "^0.2.0",
+    "serverless-http": "^3.2.0",
+    "session": "^0.1.0",
+    "twilio": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "description": "hii"
+}
